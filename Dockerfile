@@ -1,5 +1,6 @@
 FROM postgres:17.4-alpine
 LABEL maintainer="Affian Onn <affianonn@hotmail.com>"
+LABEL org.opencontainers.image.source=https://github.com/argosenpaikun/nica-postgres
 
 # Copy custom configuration or SQL/init scripts if needed
 # (e.g., schema setup, extensions)
