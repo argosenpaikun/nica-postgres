@@ -1,4 +1,4 @@
-FROM postgres:17.4-alpine
+FROM postgres:14-alpine
 LABEL maintainer="Affian Onn <affianonn@hotmail.com>"
 LABEL org.opencontainers.image.source=https://github.com/argosenpaikun/nica-postgres
 
